@@ -19,13 +19,14 @@ body {
   .container {
     align-items: center;
     justify-content: center;
-    height: 100vh;
+    min-height: 100vh; /* 画面の高さがコンテンツの高さより低い場合でもコンテンツが画面に収まるようにする */
+    margin-bottom: 20px; /* ページ下部に余白を追加 */
   }
   
   img {
     max-width: 85%;
     height: auto;
-    margin: 10px auto; /* 画像を水平方向に中央に配置 */
+    margin: 20px auto; /* 画像を水平方向に中央に配置 */
     display: block; /* 余分な空白を削除するためにブロック要素にする */
   }
   
