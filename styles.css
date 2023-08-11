@@ -13,21 +13,27 @@ body {
   
   .title-header h1 {
     margin: 0;
-    font-size: 24px;
+    font-size: 24px; /* デフォルトのフォントサイズ */
+  }
+  
+  @media (max-width: 768px) { /* 画面幅が768px以下の場合に適用 */
+    .title-header h1 {
+      font-size: 20px; /* スマートフォンなどの場合のフォントサイズ */
+    }
   }
   
   .container {
     align-items: center;
     justify-content: center;
-    min-height: 100vh; /* 画面の高さがコンテンツの高さより低い場合でもコンテンツが画面に収まるようにする */
-    margin-bottom: 20px; /* ページ下部に余白を追加 */
+    min-height: 100vh;
+    margin-bottom: 20px;
   }
   
   img {
     max-width: 85%;
     height: auto;
-    margin: 20px auto; /* 画像を水平方向に中央に配置 */
-    display: block; /* 余分な空白を削除するためにブロック要素にする */
+    margin: 10px auto;
+    display: block;
   }
   
   .tweet-link {
