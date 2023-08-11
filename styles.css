@@ -14,7 +14,7 @@ body {
   
   .title-header h1 {
     margin: 0;
-    font-size: 5vw; /* 画面横幅の5%に対してフォントサイズを設定 */
+    font-size: 4.5vw; /* 画面横幅の5%に対してフォントサイズを設定 */
   }  
   
   .container {
@@ -34,7 +34,7 @@ body {
   }
   
   .img-logo {
-    max-height: 25vh;
+    max-height: 15vh;
     margin: 0 auto 10px;
     display: block;
     /* position: absolute; 追加 */
